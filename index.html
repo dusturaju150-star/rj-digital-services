@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="bn">
 <head>
@@ -5,59 +6,152 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>RJ DIGITAL SERVICES</title>
 <style>
-*{box-sizing:border-box}
-body{margin:0;font-family:Arial,sans-serif;background:#f3f6fc;color:#17233c}
-header{background:#092b65;color:white;padding:28px 15px;text-align:center}
-header h1{margin:0;font-size:27px}
-header p{margin:9px 0 0}
-nav{background:#fff;padding:14px;text-align:center}
-nav a{color:#123d80;text-decoration:none;margin:8px;font-weight:bold}
-.hero{text-align:center;padding:45px 15px;background:linear-gradient(135deg,#0c3d89,#1679d4);color:white}
-.hero h2{font-size:28px}
-.btn{display:inline-block;background:#ffca35;color:#14264a;padding:12px 22px;border-radius:7px;text-decoration:none;font-weight:bold;margin-top:12px}
-section{padding:28px 15px;max-width:1000px;margin:auto}
-h2{text-align:center;color:#123d80}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:15px}
-.item{background:white;padding:22px;border-radius:12px;text-align:center;box-shadow:0 3px 12px #0001}
-.item h3{color:#123d80}
-footer{background:#092b65;color:white;text-align:center;padding:25px}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#f3f6fc;color:#17233c}
+header{background:#092b65;color:white;padding:22px;text-align:center}
+header h1{font-size:28px}
+header span{color:#ffca35}
+nav{background:white;padding:16px;text-align:center;position:sticky;top:0}
+nav a{color:#123d80;text-decoration:none;font-weight:bold;margin:10px}
+.hero{background:linear-gradient(135deg,#092b65,#1684df);color:white;text-align:center;padding:65px 15px}
+.hero h2{font-size:32px;margin-bottom:15px}
+.hero p{font-size:17px}
+.btn{display:inline-block;background:#ffca35;color:#092b65;padding:13px 22px;border-radius:8px;text-decoration:none;font-weight:bold;margin-top:18px}
+section{max-width:1100px;margin:auto;padding:45px 15px}
+.heading{text-align:center;margin-bottom:28px;color:#123d80}
+.heading p{color:#66758d;margin-top:8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{background:white;padding:25px 18px;border-radius:14px;text-align:center;box-shadow:0 4px 15px #0001;border:1px solid #e8eef8}
+.icon{font-size:38px;margin-bottom:13px}
+.card h3{color:#123d80;margin-bottom:10px}
+.card p{color:#68758a;font-size:14px;line-height:1.6}
+.apply{display:inline-block;background:#0b55a5;color:white;text-decoration:none;padding:11px 18px;border-radius:7px;margin-top:16px;font-weight:bold;font-size:13px}
+.about{background:#e8f1ff}
+.contact{background:#092b65;color:white;text-align:center;padding:45px 15px}
+.contact h2{margin-bottom:18px}
+.contact p{margin:12px}
+footer{background:#061b3c;color:white;text-align:center;padding:22px;font-size:13px}
+.whatsapp{position:fixed;bottom:18px;right:15px;background:#20b85a;color:white;padding:14px 18px;border-radius:30px;text-decoration:none;font-weight:bold}
+@media(max-width:600px){
+.hero h2{font-size:25px}
+nav a{display:inline-block;margin:7px}
+}
 </style>
 </head>
 <body>
+
 <header>
-<h1>RJ DIGITAL SERVICES</h1>
+<h1>RJ <span>DIGITAL SERVICES</span></h1>
 <p>Your Trusted Digital Service Partner</p>
 </header>
+
 <nav>
-<a href="#home">Home</a>
-<a href="#services">Services</a>
-<a href="#contact">Contact</a>
+<a href="#home">HOME</a>
+<a href="#services">SERVICES</a>
+<a href="#about">ABOUT</a>
+<a href="#contact">CONTACT</a>
 </nav>
+
 <div class="hero" id="home">
 <h2>Welcome to RJ DIGITAL SERVICES</h2>
 <p>All Digital Services Under One Roof</p>
-<a class="btn" href="#services">Our Services</a>
+<p>Fast Service | Trusted Support | Easy Application</p>
+<a class="btn" href="#services">EXPLORE SERVICES →</a>
 </div>
+
 <section id="services">
-<h2>Our Services</h2>
+<div class="heading">
+<h2>Our Digital Services</h2>
+<p>Choose Your Service & Contact Us</p>
+</div>
+
 <div class="grid">
-<div class="item"><h3>PAN Card Services</h3><p>New PAN, Correction & Other Services</p></div>
-<div class="item"><h3>Mobile Recharge</h3><p>All SIM Recharge Services</p></div>
-<div class="item"><h3>DTH Recharge</h3><p>TV Recharge Services</p></div>
-<div class="item"><h3>Train Ticket</h3><p>Train Ticket Booking Assistance</p></div>
-<div class="item"><h3>Flight Ticket</h3><p>Flight Booking Assistance</p></div>
-<div class="item"><h3>Retailer ID</h3><p>Retailer & Distributor Registration</p></div>
+
+<div class="card">
+<div class="icon">🪪</div>
+<h3>PAN Card Services</h3>
+<p>New PAN, Minor PAN, Correction and PAN Find.</p>
+<a class="apply" href="https://wa.me/918348221534?text=I%20want%20PAN%20Card%20Service">APPLY NOW</a>
+</div>
+
+<div class="card">
+<div class="icon">📱</div>
+<h3>Mobile Recharge</h3>
+<p>All SIM Mobile Recharge Services.</p>
+<a class="apply" href="https://wa.me/918348221534?text=I%20want%20Mobile%20Recharge">APPLY NOW</a>
+</div>
+
+<div class="card">
+<div class="icon">📺</div>
+<h3>DTH Recharge</h3>
+<p>Airtel, Tata Play, Dish TV, Sun Direct and D2H.</p>
+<a class="apply" href="https://wa.me/918348221534?text=I%20want%20DTH%20Recharge">APPLY NOW</a>
+</div>
+
+<div class="card">
+<div class="icon">🏦</div>
+<h3>AEPS Services</h3>
+<p>AEPS service and retailer registration assistance.</p>
+<a class="apply" href="https://wa.me/918348221534?text=I%20want%20AEPS%20Service">APPLY NOW</a>
+</div>
+
+<div class="card">
+<div class="icon">🚆</div>
+<h3>Train Ticket</h3>
+<p>Train Ticket Booking Assistance.</p>
+<a class="apply" href="https://wa.me/918348221534?text=I%20want%20Train%20Ticket">BOOK NOW</a>
+</div>
+
+<div class="card">
+<div class="icon">✈️</div>
+<h3>Flight Ticket</h3>
+<p>Flight Ticket Booking Assistance.</p>
+<a class="apply" href="https://wa.me/918348221534?text=I%20want%20Flight%20Ticket">BOOK NOW</a>
+</div>
+
+<div class="card">
+<div class="icon">👨‍💼</div>
+<h3>Retailer ID</h3>
+<p>Mobile Recharge Retailer ID Registration.</p>
+<a class="apply" href="https://wa.me/918348221534?text=I%20want%20Retailer%20ID">APPLY NOW</a>
+</div>
+
+<div class="card">
+<div class="icon">🏢</div>
+<h3>Distributor ID</h3>
+<p>Distributor ID Registration Assistance.</p>
+<a class="apply" href="https://wa.me/918348221534?text=I%20want%20Distributor%20ID">APPLY NOW</a>
+</div>
+
 </div>
 </section>
-<section id="contact">
-<h2>Contact Us</h2>
-<div class="item">
-<p>RJ DIGITAL SERVICES</p>
-<p>Phone: 8348221534</p>
-<p>Phone: 9567186732</p>
-<a class="btn" href="https://wa.me/918348221534">WhatsApp Us</a>
+
+<section class="about" id="about">
+<div class="heading">
+<h2>Why Choose RJ DIGITAL SERVICES?</h2>
+<p>Your Trusted Digital Service Partner</p>
+</div>
+<div class="grid">
+<div class="card"><div class="icon">⚡</div><h3>Quick Assistance</h3><p>Easy communication and service support.</p></div>
+<div class="card"><div class="icon">🤝</div><h3>Customer Support</h3><p>Contact our team for service-related help.</p></div>
+<div class="card"><div class="icon">💼</div><h3>Business Opportunity</h3><p>Retailer and Distributor Registration Support.</p></div>
 </div>
 </section>
-<footer>© 2026 RJ DIGITAL SERVICES. All Rights Reserved.</footer>
+
+<div class="contact" id="contact">
+<h2>Contact RJ DIGITAL SERVICES</h2>
+<p>📞 8348221534</p>
+<p>📞 9567186732</p>
+<p>WhatsApp Support Available</p>
+<a class="btn" href="https://wa.me/918348221534">CHAT ON WHATSAPP</a>
+</div>
+
+<footer>
+<p>© 2026 RJ DIGITAL SERVICES. All Rights Reserved.</p>
+<p>Your Trusted Digital Service Partner</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/918348221534">💬 WhatsApp</a>
+
 </body>
 </html>
